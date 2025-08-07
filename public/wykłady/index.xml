@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wykłady on Matura Matematyka</title>
+    <link>http://localhost:1313/wyk%C5%82ady/</link>
+    <description>Recent content in Wykłady on Matura Matematyka</description>
+    <generator>Hugo</generator>
+    <language>pl-pl</language>
+    <lastBuildDate>Wed, 06 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/wyk%C5%82ady/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Liczby rzeczywiste</title>
+      <link>http://localhost:1313/wyk%C5%82ady/liczby_rzeczywiste/</link>
+      <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/wyk%C5%82ady/liczby_rzeczywiste/</guid>
+      <description>&lt;h2 id=&#34;1-zbiory-liczb&#34;&gt;&#xA;  1. Zbiory liczb&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#1-zbiory-liczb&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Liczby naturalne&lt;/strong&gt; - \( \mathbb{N} \) - {\( 0, 1, 2, 3, \ldots \)}&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Liczby całkowite&lt;/strong&gt; - \( \mathbb{Z} \) - {\( \ldots, -3, -2, -1, 0, 1, 2, 3 \ldots \)}&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Liczby wymierne&lt;/strong&gt; - \( \mathbb{Q} \) - takie liczby, które można przedstawić za pomocą ułamka wymiernego, gdzie licznik i mianownik są liczbami całkowitymi&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Liczby rzeczywiste&lt;/strong&gt; - \( \mathbb{R} \) - wszystko co wcześniej i liczby niewymierne - na przykład liczba \( \pi \)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote class=&#34;book-hint warning&#34;&gt;&#xA;&lt;p&gt;Symbole {} oznaczają zbiór, \( \in \) przynależność do danego zbioru. Wszystko co znajduje się wewnątrz należy do danego zbioru. Przykładowo: \( 1 \in \) {\( 1, 2 \)} - liczba jeden należy do zbioru zawierającego tylko ją i dwójkę.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

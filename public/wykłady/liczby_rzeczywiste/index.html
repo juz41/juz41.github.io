@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="pl-pl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="
+  1. Zbiory liczb
+  #
+
+
+Liczby naturalne - \( \mathbb{N} \) - {\( 0, 1, 2, 3, \ldots \)}
+Liczby całkowite - \( \mathbb{Z} \) - {\( \ldots, -3, -2, -1, 0, 1, 2, 3 \ldots \)}
+Liczby wymierne - \( \mathbb{Q} \) - takie liczby, które można przedstawić za pomocą ułamka wymiernego, gdzie licznik i mianownik są liczbami całkowitymi
+Liczby rzeczywiste - \( \mathbb{R} \) - wszystko co wcześniej i liczby niewymierne - na przykład liczba \( \pi \)
+
+
+Symbole {} oznaczają zbiór, \( \in \) przynależność do danego zbioru. Wszystko co znajduje się wewnątrz należy do danego zbioru. Przykładowo: \( 1 \in \) {\( 1, 2 \)} - liczba jeden należy do zbioru zawierającego tylko ją i dwójkę.">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/wyk%C5%82ady/liczby_rzeczywiste/">
+  <meta property="og:site_name" content="Matura Matematyka">
+  <meta property="og:title" content="Liczby rzeczywiste">
+  <meta property="og:description" content="1. Zbiory liczb # Liczby naturalne - \( \mathbb{N} \) - {\( 0, 1, 2, 3, \ldots \)} Liczby całkowite - \( \mathbb{Z} \) - {\( \ldots, -3, -2, -1, 0, 1, 2, 3 \ldots \)} Liczby wymierne - \( \mathbb{Q} \) - takie liczby, które można przedstawić za pomocą ułamka wymiernego, gdzie licznik i mianownik są liczbami całkowitymi Liczby rzeczywiste - \( \mathbb{R} \) - wszystko co wcześniej i liczby niewymierne - na przykład liczba \( \pi \) Symbole {} oznaczają zbiór, \( \in \) przynależność do danego zbioru. Wszystko co znajduje się wewnątrz należy do danego zbioru. Przykładowo: \( 1 \in \) {\( 1, 2 \)} - liczba jeden należy do zbioru zawierającego tylko ją i dwójkę.">
+  <meta property="og:locale" content="pl_pl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="wykłady">
+    <meta property="article:published_time" content="2025-08-06T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-08-06T00:00:00+00:00">
+<title>Liczby rzeczywiste | Matura Matematyka</title>
+<link rel="icon" href="/favicon.png" >
+<link rel="manifest" href="/manifest.json">
+<link rel="canonical" href="http://localhost:1313/wyk%C5%82ady/liczby_rzeczywiste/">
+<link rel="stylesheet" href="/book.min.1163e4be4929dcb009aa4935fad30d917d2354c3b2bf7f1d781b3d13856a9069.css" integrity="sha256-EWPkvkkp3LAJqkk1&#43;tMNkX0jVMOyv38deBs9E4VqkGk=" crossorigin="anonymous">
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/en.search.min.d734af82ef607aa1be80acc0113119357d4bda12f837f58c98896f097299106b.js" integrity="sha256-1zSvgu9geqG&#43;gKzAETEZNX1L2hL4N/WMmIlvCXKZEGs=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Matura Matematyka</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wyk%C5%82ady/" class="">Wykłady</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wyk%C5%82ady/liczby_rzeczywiste/" class="active">Liczby rzeczywiste</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>Liczby rzeczywiste</h3>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#1-zbiory-liczb">1. Zbiory liczb</a></li>
+    <li><a href="#2-wartość-bezwzględna">2. Wartość bezwzględna</a></li>
+    <li><a href="#3-podzielność">3. Podzielność</a></li>
+    <li><a href="#4-potęgi">4. Potęgi</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article">
+
+<h2 id="1-zbiory-liczb">
+  1. Zbiory liczb
+  <a class="anchor" href="#1-zbiory-liczb">#</a>
+</h2>
+<ul>
+<li><strong>Liczby naturalne</strong> - \( \mathbb{N} \) - {\( 0, 1, 2, 3, \ldots \)}</li>
+<li><strong>Liczby całkowite</strong> - \( \mathbb{Z} \) - {\( \ldots, -3, -2, -1, 0, 1, 2, 3 \ldots \)}</li>
+<li><strong>Liczby wymierne</strong> - \( \mathbb{Q} \) - takie liczby, które można przedstawić za pomocą ułamka wymiernego, gdzie licznik i mianownik są liczbami całkowitymi</li>
+<li><strong>Liczby rzeczywiste</strong> - \( \mathbb{R} \) - wszystko co wcześniej i liczby niewymierne - na przykład liczba \( \pi \)</li>
+</ul>
+<blockquote class="book-hint warning">
+<p>Symbole {} oznaczają zbiór, \( \in \) przynależność do danego zbioru. Wszystko co znajduje się wewnątrz należy do danego zbioru. Przykładowo: \( 1 \in \) {\( 1, 2 \)} - liczba jeden należy do zbioru zawierającego tylko ją i dwójkę.</p>
+</blockquote>
+<h2 id="2-wartość-bezwzględna">
+  2. Wartość bezwzględna
+  <a class="anchor" href="#2-warto%c5%9b%c4%87-bezwzgl%c4%99dna">#</a>
+</h2>
+<p>Wartość bezwzględna liczby \( x \) jest definiowana jako:</p>
+
+<link rel="stylesheet" href="/katex/katex.min.css" />
+<script defer src="/katex/katex.min.js"></script>
+
+<script defer src="/katex/auto-render.min.js" onload="renderMathInElement(document.body, {
+  &#34;delimiters&#34;: [
+    {&#34;left&#34;: &#34;$$&#34;, &#34;right&#34;: &#34;$$&#34;, &#34;display&#34;: true},
+    {&#34;left&#34;: &#34;\\(&#34;, &#34;right&#34;: &#34;\\)&#34;, &#34;display&#34;: false},
+    {&#34;left&#34;: &#34;\\[&#34;, &#34;right&#34;: &#34;\\]&#34;, &#34;display&#34;: true}
+  ]
+});"></script>
+
+<span>\[ |x| =  \begin{cases}  x &amp; \text{jeśli } x \geq 0 \\  -x &amp; \text{jeśli } x &lt; 0  \end{cases} \]</span>
+<p>Możemy to sobię wyobrazić jako odległość liczby od zera - w tym przypadku nie ma znaczenia czy liczba jest po lewo, czy po prawo od zera - dlatego \( |x| = |-x| \)</p>
+<h2 id="3-podzielność">
+  3. Podzielność
+  <a class="anchor" href="#3-podzielno%c5%9b%c4%87">#</a>
+</h2>
+<p>Mówimy że liczba \( a \) jest podzielna przez \( b \) wtedy i tylko wtedy, gdy przy dzieleniu \( a \) przez \( b \) otrzymamy liczbę całkowitą. Mówimy wtedy, że \( b \) jest dzielnikiem \( a \).
+Łatwo zauważyć że taka sytuacja wymusza istenienie liczby \( k \) takiej, że:</p>
+
+<span>\[ a = k \cdot b \]</span>
+<p>W sytuacji, gdy wynik nie jest całkowity możemy znaleźć ile maksymalnie \( b \) zmieści się w \( a \) i ile nam zostanie. To wymusza istnienie \( k \) i \( r \) takich, że:</p>
+
+<span>\[ a = k \cdot b &#43; r \]</span>
+<p>\( r \) nazywamy resztą z dzielenia.</p>
+<p>Przykładowe zasady podzielności przez:</p>
+<ul>
+<li>2 - ostatnia cyfra liczby jest parzysta (ostatnia cyfra jest podzielna przez 2)</li>
+<li>3 - suma cyfr jest podzielna przez 3</li>
+<li>5 - ostatnia cyfra to 0 lub 5 (ostatnia cyfra jest podzielna przez 5)</li>
+</ul>
+<h2 id="4-potęgi">
+  4. Potęgi
+  <a class="anchor" href="#4-pot%c4%99gi">#</a>
+</h2>
+<p>Niech \( n \) będzie liczbą całkowitą dodatnią. Dla dowolnej liczby \( a \) definiujemy jej \( n \)-tą potęgę:</p>
+
+<span>\[ a^n = \underbrace{a \cdot a \cdot \ldots \cdot a}_{n\ \text{razy}}. \]</span>
+<blockquote class="book-hint warning">
+<p>Oczywiście liczby możemy podnosić do potęgi nie tylko gdy \( n \) jest całkowite, chwilowo jednak takich operacji nie definijemy.</p>
+</blockquote>
+<p>Ile wynosi \( 3^2 \)?
+<details>
+    <summary>Odpowiedź:</summary>
+9  
+</details>
+</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  
+
+
+
+  
+  
+  
+  <div class="flex flex-wrap justify-between">
+    <span>
+    
+      <a href="/wyk%C5%82ady/" class="flex align-center book-icon">
+        <img src="/svg/backward.svg" class="book-icon" alt="Previous" title="Wykłady" />
+        <span>Wykłady</span>
+      </a>
+    
+    </span>
+    <span>
+    
+    </span>
+  </div>
+  
+
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#1-zbiory-liczb">1. Zbiory liczb</a></li>
+    <li><a href="#2-wartość-bezwzględna">2. Wartość bezwzględna</a></li>
+    <li><a href="#3-podzielność">3. Podzielność</a></li>
+    <li><a href="#4-potęgi">4. Potęgi</a></li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
