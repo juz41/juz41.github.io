@@ -24,7 +24,7 @@ Wartość bezwzględna liczby \\( x \\) jest definiowana jako:
 |x| =  \begin{cases}  x & \text{jeśli } x \geq 0 \\  -x & \text{jeśli } x < 0  \end{cases}
 ```
 
-Możemy to sobię wyobrazić jako odległość liczby od zera - w tym przypadku nie ma znaczenia czy liczba jest po lewo, czy po prawo od zera - dlatego \\( |x| = |-x| \\)
+Możemy to sobię wyobrazić jako odległość liczby od zera - w tym przypadku nie ma znaczenia czy liczba jest po lewo, czy po prawo od zera - dlatego \\( |x| = |-x| \\).
 
 
 ## 3. Podzielność
@@ -57,5 +57,5 @@ Oczywiście liczby możemy podnosić do potęgi nie tylko gdy \\( n \\) jest ca
 
 Ile wynosi \\( 3^2 \\)?
 {{< answer >}}
-9
+\\( 9 \\)
 {{< /answer >}}
