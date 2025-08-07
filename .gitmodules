@@ -1,0 +1,12 @@
+[submodule "themes/loctusdocs"]
+	path = themes/loctusdocs
+	url = https://github.com/colinwilson/lotusdocs
+[submodule "themes/lotusdocs"]
+	path = themes/lotusdocs
+	url = https://github.com/colinwilson/lotusdocs
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "themes/hugo-book"]
+	path = themes/hugo-book
+	url = https://github.com/alex-shpak/hugo-book
