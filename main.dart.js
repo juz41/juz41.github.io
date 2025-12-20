@@ -38201,14 +38201,16 @@ break}s.length===i||(0,A.C)(s);++r}s=e[n][m]
 i=j==null?null:j.b
 s.a=i==null?l.a:i}g.c=e
 g.av()},
-a2j(a,b){var s,r,q,p,o,n,m=t.S,l=A.t(m,m)
-for(s=-1;s<=1;++s)for(r=a+s,m=s===0,q=-1;q<=1;++q){if(m&&q===0)continue
-p=b+q
-if(r>=0&&r<this.a&&p>=0&&p<this.b){o=this.c
-o===$&&A.a()
-n=o[r][p].a
-o=l.h(0,n)
-l.n(0,n,(o==null?0:o)+1)}}return l},
+a2j(a,b){var s,r,q,p,o,n,m,l,k=this,j=t.S
+j=A.t(j,j)
+for(s=k.d,r=0;r<s.length;++r)j.n(0,r,0)
+for(q=-1;q<=1;++q)for(p=a+q,s=q===0,o=-1;o<=1;++o){if(s&&o===0)continue
+n=b+o
+if(p>=0&&p<k.a&&n>=0&&n<k.b){m=k.c
+m===$&&A.a()
+l=m[p][n].a
+m=j.h(0,l)
+j.n(0,l,(m==null?0:m)+1)}}return j},
 anC(a,b){var s=this.d,r=s.length
 if(a>=r)return
 s[a].b=b
