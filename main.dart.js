@@ -38142,7 +38142,7 @@ $S:16}
 A.acA.prototype={}
 A.JV.prototype={
 O(a){var s=null,r=t.t,q=t.S,p=t.Cm
-return new A.w2(new A.u0(new A.a6k(A.c([new A.mw("Dead",B.j),new A.mw("Alive",B.l)],t.T0),A.c([new A.eG(1,0,A.ar([1,A.c([1,4,5,6,7,8],r)],q,p)),new A.eG(0,1,A.ar([1,A.c([3],r)],q,p))],t.uh)),s,s,A.aLZ(),A.aL1(),t.LU),s,s,new A.yb(B.Fr,"Cellular Automata",A.tz(s,s,B.dr,!0),!1,s),s,t.lM)}}
+return new A.w2(new A.u0(new A.a6k(A.c([new A.mw("Dead",B.j),new A.mw("Alive",B.l)],t.T0),A.c([new A.eG(1,0,A.ar([1,A.c([0,1,4,5,6,7,8],r)],q,p)),new A.eG(0,1,A.ar([1,A.c([3],r)],q,p))],t.uh)),s,s,A.aLZ(),A.aL1(),t.LU),s,s,new A.yb(B.Fr,"Cellular Automata",A.tz(s,s,B.dr,!0),!1,s),s,t.lM)}}
 A.a6k.prototype={
 $1(a){return A.aGH(20,20,this.b,this.a)},
 $S:324}
